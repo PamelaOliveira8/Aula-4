@@ -1,0 +1,57 @@
+
+    #menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        background: rgb(241, 231, 86);
+        color: black;
+        left: 0;
+        top: 0;
+        padding: 20px 40px;
+        width: calc(100%);
+        z-index: 10;
+    }
+
+#menu img{
+height: 80px;
+margin-right: 50px;
+}
+
+#menu ul li{
+margin-right: 40px;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: auto;
+    list-style: none;
+
+}
+#menu button{
+    border: none;
+    padding: 10px 25px;
+    color:white;
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#ods2{
+position: absolute;
+top: 200px;
+right: 50px;
+background: rgb(253, 186, 0) ;
+color: white ;
+padding:10px 15px ;
+border-radius:  5px; ;
+}
+
+.feed{
+    text-align: center;
+    color: royalblue;
+}

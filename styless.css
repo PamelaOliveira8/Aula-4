@@ -1,0 +1,19 @@
+html, body .feed{
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(252, 202, 64);
+    text-align: center;
+}
+
+*{
+    margin: 20px;
+    padding: 10px;
+}
+
+}
+.item {
+text-align: left;
+}
+img{
+    width: 200px;
+    height: auto;
+}
